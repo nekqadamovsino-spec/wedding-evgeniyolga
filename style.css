@@ -156,3 +156,24 @@ left:0;
   object-fit:cover;
   display:block;
 }
+.dress-colors{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+    margin-top:30px;
+}
+
+.dress-colors img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+}
+
+@media (max-width:768px){
+    .dress-colors{
+        grid-template-columns:repeat(2,1fr);
+        gap:14px;
+    }
+}

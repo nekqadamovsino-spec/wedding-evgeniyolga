@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Евгений & Ольга — свадебное приглашение</title>
+  <meta name="description" content="Приглашение на свадьбу Евгения и Ольги — 26.09.2026" />
+  <meta property="og:title" content="Евгений & Ольга" />
+  <meta property="og:description" content="26 сентября 2026 — свадебное приглашение" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="hero.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="video-bg">
+    <video autoplay muted loop playsinline preload="auto">
+        <source src="assets/video/silk.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+</div>
+  <div class="grain"></div>
+
+  <main>
+    <section class="screen hero">
+      <div class="silk"></div>
+      <div class="inner hero-inner reveal">
+        <p class="overline">приглашение на свадьбу</p>
+        <h1>Евгений<br><span>&</span><br>Ольга</h1>
+        <div class="date-block">
+          <span>сентябрь</span>
+          <strong>26</strong>
+          <span>2026</span>
+        </div>
+        <a href="#invite" class="down">⌄</a>
+      </div>
+    </section>
+
+    <section class="screen invite" id="invite">
+  <div class="inner narrow reveal">
+
+    <div class="photo-placeholder tall">
+      <img src="hero1.jpg" alt="Фото пары" class="placeholder-img">
+    </div>
+
+    <h2>Родные и близкие!</h2>
+    <p class="script">Мы женимся!</p>
+    <p>С большим трепетом приглашаем вас разделить с нами один из самых важных дней нашей жизни.</p>
+    <p>Будем счастливы видеть вас рядом в этот особенный вечер.</p>
+
+  </div>
+</section>
+
+    <section class="screen calendar-section">
+      <div class="inner reveal">
+        <p class="overline">save the date</p>
+        <h2>26 сентября 2026</h2>
+        <div class="calendar">
+          <div>ПН</div><div>ВТ</div><div>СР</div><div>ЧТ</div><div>ПТ</div><div>СБ</div><div>ВС</div>
+          <span></span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span>
+          <span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span>
+          <span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span>
+          <span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span class="active">26</span><span>27</span>
+          <span>28</span><span>29</span><span>30</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen location">
+      <div class="inner card reveal">
+        <h2>Банкет</h2>
+        <p class="script">«Чудная долина»</p>
+        <div class="place">
+          <p>Динской район, станица Пластуновская, банкетный зал «Чудная долина»</p>
+        </div>
+        <a class="map-btn" target="_blank" href="https://yandex.ru/maps/?text=%D0%A7%D1%83%D0%B4%D0%BD%D0%B0%D1%8F%20%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0%20%D0%9F%D0%BB%D0%B0%D1%81%D1%82%D1%83%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F">
+          📍 Открыть карту
+        </a>
+      </div>
+    </section>
+
+    <section class="screen program">
+      <div class="inner reveal">
+        <h2>Программа дня</h2>
+        <div class="timeline">
+          <div class="item"><b>16:00</b><span>Сбор гостей</span><p>Знакомимся, обнимаемся, настраиваемся на весёлую свадьбу.</p></div>
+          <div class="item"><b>17:00</b><span>Церемония</span><p>Немного радостных и трогательных формальностей — то, ради чего собрались.</p></div>
+          <div class="item"><b>18:00</b><span>Банкет</span><p>От души посмеёмся и сделаем этот праздник незабываемым вместе.</p></div>
+          <div class="item"><b>23:30</b><span>Финал</span><p>Даже такой прекрасный вечер может закончиться.</p></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="screen wishes">
+      <div class="inner card reveal">
+        <h2>Пожелания</h2>
+        <p>Если хотите подарить нам ценный и нужный подарок, мы будем очень благодарны за вклад в бюджет нашей семьи.</p>
+      </div>
+    </section>
+
+    <section class="screen timer-section">
+      <div class="inner reveal">
+        <p class="overline">до свадьбы осталось</p>
+        <div class="timer" id="timer">
+          <div><b id="days">0</b><span>дней</span></div>
+          <div><b id="hours">0</b><span>часов</span></div>
+          <div><b id="minutes">0</b><span>минут</span></div>
+          <div><b id="seconds">0</b><span>секунд</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen rsvp">
+      <div class="inner card reveal">
+        <h2>Подтвердите присутствие</h2>
+        <p>Пожалуйста, заполните анкету заранее.</p>
+<form id="rsvpForm">
+  <input name="name" placeholder="Ваши имя и фамилия" required>
+
+  <div class="form-group">
+    <p>Планируете ли вы присутствовать на свадьбе?</p>
+    <label><input type="radio" name="guest" value="Да, с удовольствием!" required> Да, с удовольствием!</label>
+    <label><input type="radio" name="guest" value="Да, буду с парой!"> Да, буду с парой!</label>
+    <label><input type="radio" name="guest" value="К сожалению, не смогу"> К сожалению, не смогу</label>
+  </div>
+
+  <input name="partner" placeholder="Имя и фамилия вашей пары">
+
+  <div class="form-group">
+    <p>Нужен ли вам трансфер?</p>
+    <label><input type="radio" name="transfer" value="Да"> Да</label>
+    <label><input type="radio" name="transfer" value="Нет, доберусь самостоятельно"> Нет, доберусь самостоятельно</label>
+  </div>
+
+  <input name="song" placeholder="Ваш любимый музыкальный трек">
+
+  <textarea name="comment" placeholder="Комментарий / пожелание"></textarea>
+
+  <button type="submit">Отправить</button>
+</form>
+
+<p class="status" id="status"></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Евгений & Ольга</p>
+      <span>26.09.2026</span>
+    </footer>
+  </main>
+  <script src="script.js?v=3"></script>
+</body>
+</html>
